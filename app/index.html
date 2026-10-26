@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="da"><head><meta charset="utf-8">
+<meta name="viewport" content="width=1920,height=1080">
+<title>Hjem</title>
+<script>window.HJEM_API = 'http://192.168.50.206:8090';</script>
+<link rel="stylesheet" href="http://192.168.50.206:8090/style.css">
+</head>
+<body>
+<div id="tv">
+  <canvas id="sky" width="1920" height="1080"></canvas>
+  <div id="top"><span id="date"></span><span id="wx"></span></div>
+  <div id="clock">--:--</div>
+  <canvas id="land" width="1920" height="1080"></canvas>
+  <div id="shade"></div>
+  <div id="cardsWrap"><h2 id="cardsTitle">Fortsæt med at se</h2><div class="row" id="cards"></div></div>
+  <div id="dock" class="row"></div>
+  <div id="toast"></div>
+</div>
+<!-- Koden hentes fra en lokal server, så ændringer slår igennem uden nyt push -->
+<script src="http://192.168.50.206:8090/app.js"></script>
+</body></html>
