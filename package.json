@@ -1,9 +1,13 @@
 {
   "name": "tv-hjem",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Egen startskærm til Samsung TV (TizenBrew-modul)",
   "packageType": "app",
   "appName": "Hjem",
   "appPath": "app/index.html",
-  "keys": ["MediaPlayPause", "ColorF0Red"]
+  "keys": [
+    "MediaPlayPause",
+    "ColorF0Red"
+  ],
+  "serviceFile": "service.js"
 }
